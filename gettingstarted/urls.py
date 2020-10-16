@@ -17,6 +17,9 @@ import hello.views
 urlpatterns = [
     path("", hello.views.index, name="index"),
     path("line/", hello.views.line, name="line"),
+    path("scatter/", hello.views.catter, name="catter"),	
+    path("simplechart/", hello.views.simplechart, name="simplechart"),
+    path("dataanalysys/", hello.views.dataanalysys, name="dataanalysys"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
 ]

@@ -11,6 +11,15 @@ def index(request):
 def line(request):
     # return HttpResponse('Line!')
     return render(request, "line.html")
+def dataanalysys(request):
+    # return HttpResponse('Dataanalysys!')
+    return render(request, "dataanalysys.html")
+def scatter(request):
+    # return HttpResponse('Line!')
+    return render(request, "scatter.html")
+def simplechart(request):
+    # return HttpResponse('Line!')
+    return render(request, "simplechart.html")
 def db(request):
 
     greeting = Greeting()
