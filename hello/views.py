@@ -8,7 +8,9 @@ def index(request):
     # return HttpResponse('Hello from Python!')
     return render(request, "index.html")
 
-
+def line(request):
+    # return HttpResponse('Line!')
+    return render(request, "line.html")
 def db(request):
 
     greeting = Greeting()
